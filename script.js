@@ -3,16 +3,15 @@ let menuBtn = document.querySelector('#menu-btn');
 let menuBar = document.querySelector('.menu-bar');
 
 menuBtn.onclick = () => {
-    menuBtn.classList.toggle('bx-x');
-    menuBtn.classList.toggle('active');
-}
+  menuBtn.classList.toggle('bx-x');
+  menuBar.classList.toggle('active');
+};
 
-// lets remove menu-bar on scroll
-
+// Let's remove menu-bar on scroll
 window.onscroll = () => {
-    menuBtn.classList.remove('bx-x');
-    menuBtn.classList.remove('active');
-}
+  menuBtn.classList.remove('bx-x');
+  menuBar.classList.remove('active');
+};
 
 //scroll reveal
 ScrollReveal({
@@ -25,4 +24,4 @@ ScrollReveal({
 ScrollReveal().reveal('.home-bio h1 .about-resume', { origin: 'left' });
 ScrollReveal().reveal('.home-bio p', { origin: 'right'});
 ScrollReveal().reveal('.home-bio, heading', { origin: 'top'});
-ScrollReveal().reveal('.profile-pic, .about-items, .skill-items, .project-items, .form', { origin: 'bottom'});
+ScrollReveal().reveal('.profile-pic, .about-items, .skills-items, .projects-items, .form', { origin: 'bottom'});
