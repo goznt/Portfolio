@@ -12,6 +12,7 @@
     scroll-behavior: smooth;
 }
 
+
 a{
     color: #ffffff;
 }
@@ -183,6 +184,8 @@ span{
 }
 
 /*Skills Section*/
+
+
 .skills{
     display: flex;
     align-items: center;
@@ -220,6 +223,8 @@ span{
 .skill-card h3{
     font-size: 2.5rem;
     font-weight: 200;
+    color: #9BABB8;
+    text-align: center;
 }
 
 .skill-card p{
